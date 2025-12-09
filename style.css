@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR USING FLOAT */
+.navbar {
+  background-color: #003366;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.logo {
+  color: white;
+  font-size: 22px;
+  float: left;
+}
+
+.nav {
+  list-style: none;
+  float: right;
+}
+
+.nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* SECTIONS */
+.section {
+  padding: 40px;
+}
+
+/* SKILLS CARDS USING FLEXBOX */
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: #eaf2ff;
+  border: 2px solid #003366;
+  padding: 15px;
+  width: 30%;
+}
+
+/* CONTACT FORM */
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  border: none;
+}
